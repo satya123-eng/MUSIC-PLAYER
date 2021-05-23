@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+                $("audio").on("play", function () {
+                    $("audio").not(this).each(function (index, audio) {
+                        audio.pause();
+                    });
+                });
+            });
+    </script>
+    <style>
+        body{background-color:black;
+    background-image:url(https://dl.dropbox.com/s/z0pofnrynofm29g/images%20%2847%29.jpeg?dl=0); background-size:100px;}
+    audio{position:relative; 
+    color:green;}img{border:10px solid pink;
+    position:relative ;
+    }p{background-color:rgb(45,67,190);
+    color:pink;
+    border:5px solid rgb(16,88,65);
+    border-radius:60px;}
+    ::placeholder{
+        color:green;
+    }#rt{
+        color:tomato;
+        background-color:yellow;
+        
+    }
+    
+    h1{background-image:url(https://dl.dropbox.com/s/fonrdymc3nvuytq/images%20%2843%29.jpeg?dl=0);
+    background-size:70px;
+    font-weight:60px;
+    }
+    
+    button{background-color:Tomato;
+    }
+    </style>
+</head>
+<body>
+    <button Type="onclick">Home</button>
+    <pre></pre>
+    <button type="onclick"><a href="facebook.com">FOLLOW ME</button></a>
+    
+    <p>search music</p>
+    <input type="text" ;placeholder="username" ;name="searchfor music" style="color:red;background-color:white;border:3px solid yellow;border-radius:10px
+    ">
+    <pre></pre>
+    <h2 style="color:white">Romantic hindi song</h2>
+    <im src="https://d.dropbox.com/s/emoagfq17oag4tn/images%20%2846%29.jpeg?dl=0" width="170px">
+        <img src="https://dl.dropbox.com/s/sqopwa4wovnha5u/20200611_171753.jpg?dl=0" width="160px">
+    
+        <p>
+            <marquee>Tujhe kitna kahena lage hum (Jubin nautyal)</marquee>
+        </p>
+        <pre></pre>
+        <audio controls >
+            <source
+                src="https://dl.dropbox.com/s/272c4pe9ibwruat/Tujhe%20Kitna%20Chahein%20Aur%20%28Film%20Version%29_64-%28MrPaji.com%29.mp3?dl=0"
+                type="audio/mpeg">
+        </audio>
+        <pre></pre>
+        <h2 style="color:white">English songs(angreji gana) </h2>
+        <img src="https://dl.dropbox.com/s/1zthivgcpopr35h/images%20%2842%29.jpeg?dl=0" width="150px">
+        <p>
+            <marquee>Hold on! (chrod overstreet)</marquee>
+        </p>
+        <audio controls >
+            <source
+                src="https://dl.dropbox.com/s/z0mpl9d897odt7e/Chord%20Overstreet%20-%20Hold%20On%20%28Official%29.mp3?dl=0"
+                type="audio/mpeg">
+        </audio>
+        <pre></pre>
+        <img src="https://dl.dropbox.com/s/wyt9gmz8rx08eic/images%20%2844%29.jpeg?dl=0" width="160px">
+        <p>
+            <marquee>Woh baarishen (Arjun kunanjo)</marquee>
+        </p>
+        <pre></pre>
+        <audio controls>
+            <source src="https://dl.dropbox.com/s/qwuzecyrwn78yqj/Woh%20Baarishein%20-%20Arjun%20Kanungo.mp3?dl=0"
+                type="audio/mpeg">
+        </audio>
+        <pre></pre>
+        <h2 style="color:rgb(255, 255, 255)">Best of Best</h2>
+        <img src="https://dl.dropbox.com/s/58ivaevz5qx3dco/images%20%2841%29.jpeg?dl=0" width="150px">
+        <img src="https://dl.dropbox.com/s/wcys5galn1u7946/images%20%2838%29.jpeg?dl=0" width="150px">
+        <p>
+            <marquee>Sing me to sleep (Alen walker)</marquee>
+        </p>
+        <audio controls >
+            <source src="https://dl.dropbox.com/s/i7pv2qkp9jn01ag/Alan%20Walker%20-%20Sing%20Me%20To%20Sleep.mp3?dl=0"
+                type="audio/mpeg">
+        </audio>
+    
+        <pre></pre>
+        <p id="rt"><strong>BY SATYA PRAKASH</strong></p>
+
+</body>
+</html>
